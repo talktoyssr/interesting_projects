@@ -39,3 +39,11 @@ def find_dup(new_list):
 
 ano_list = [5, 3, 1, 4, 1, 2]
 print(find_dup(ano_list))
+
+
+'''
+    CYCLE index(Value) --->  0(5) --> 5(2) --> 2(1) --> 1(3) --> 3(4)
+                                                         ^         |
+                                                         |         v
+                                                          <-- -- --
+'''
